@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>View All Products-</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/000d8e5b00.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawsome.com/67c66657c7.js"></script>
+	  <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+		<div class="sidebar">
+			<div class="filter">
+              <a href="index.html"><p class="p"><i class="fa fa-arrow-left-long">&nbsp;&nbsp;Home</i></p></a>
+				<h3>Category Filter</h3>
+				<div id="btns"></div>
+                <div class="wrapper">
+                    <header>
+                      <h2>Price Range</h2>
+                    </header>
+                    <div class="price-input">
+                      <div class="field">
+                        <span>Min</span>
+                        <input type="number" class="input-min" value="2500">
+                      </div>
+                      <div class="separator">-</div>
+                      <div class="field">
+                        <span>Max</span>
+                        <input type="number" class="input-max" value="7500">
+                      </div>
+                    </div>
+                    <div class="slider">
+                      <div class="progress"></div>
+                    </div>
+                    <div class="range-input">
+                      <input type="range" class="range-min" min="0" max="500" value="2500" step="100">
+                      <input type="range" class="range-max" min="0" max="500000" value="7500" step="100">
+                    </div>
+                  </div>
+			</div>
+		</div>
+		<div class="contant">
+			<div class="header">
+				<p>New Offers</p>
+			</div>
+			<div id="root"></div>
+		</div>
+	</div>
+
+	<script src="script2.js"></script>
+</body>
+</html>
